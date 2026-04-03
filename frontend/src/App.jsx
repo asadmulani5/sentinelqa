@@ -43,7 +43,7 @@ export default function App() {
       setLoadingMsg(messages[i])
     }, 3000)
     try {
-      const res = await axios.post("http://localhost:8000/scan", { url })
+      const res = await axios.post("https://sentinelqa-production.up.railway.app/scan", { url })
       setResult(res.data)
     } catch (e) {
       setError("Something went wrong. Make sure the URL is valid and try again.")
