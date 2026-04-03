@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+playwright
+anthropic
+python-dotenv
+groq
