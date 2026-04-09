@@ -1,6 +1,6 @@
 fastapi
 uvicorn
-playwright
-anthropic
-python-dotenv
+requests
+beautifulsoup4
 groq
+python-dotenv
